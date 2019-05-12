@@ -1,4 +1,4 @@
-package com.javainuse.resource;
+package com.javainuse.controllers;
 
 import com.javainuse.Entity.User;
 import lombok.extern.slf4j.Slf4j;

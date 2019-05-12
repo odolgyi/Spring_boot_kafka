@@ -1,10 +1,9 @@
 package com.javainuse.kafkaconsumers;
 
-import com.javainuse.kafkaproducer.MessageService;
+import com.javainuse.Service.MessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +12,6 @@ import java.util.List;
 
 @Service
 @Slf4j
-@PropertySource(ignoreResourceNotFound = true, value = "classpath:application.properties")
 public class MessageConsumer implements IConsumer {
 
     @Autowired

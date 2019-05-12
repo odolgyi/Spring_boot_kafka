@@ -1,4 +1,4 @@
-package com.javainuse.kafkaproducer;
+package com.javainuse.repository;
 
 import com.javainuse.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

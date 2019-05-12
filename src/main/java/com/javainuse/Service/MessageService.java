@@ -1,6 +1,7 @@
-package com.javainuse.kafkaproducer;
+package com.javainuse.Service;
 
 import com.javainuse.Entity.User;
+import com.javainuse.repository.MessageRepo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
