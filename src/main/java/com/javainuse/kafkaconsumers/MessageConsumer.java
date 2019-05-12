@@ -1,6 +1,5 @@
 package com.javainuse.kafkaconsumers;
 
-import com.javainuse.Entity.User;
 import com.javainuse.kafkaproducer.MessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -21,7 +20,7 @@ public class MessageConsumer implements IConsumer {
     private MessageService messageService;
 
     @Override
-    @KafkaListener(topics = "message", groupId ="message")
+    @KafkaListener(topics = "message", groupId = "message")
     public void consumeData(ConsumerRecord<String, String> userMessage) {
         log.info("Data {} consumed.", userMessage);
         System.out.println(splitStringToValues(userMessage.value()).toString());
@@ -29,8 +28,8 @@ public class MessageConsumer implements IConsumer {
     }
 
     public List<String> splitStringToValues(String inputtedString) {
-        List<String> valuesList = new ArrayList();
-        for (String word: inputtedString.split(" ")) {
+        List<String> valuesList = new ArrayList<>();
+        for (String word : inputtedString.split(" ")) {
             valuesList.add(word);
         }
         return valuesList;

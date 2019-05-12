@@ -19,7 +19,8 @@ public class User {
     @Column(name = "adress")
     private String adress;
 
-    public User(){}
+    public User() {
+    }
 
     public User(String name, String mobilePhone, String adress) {
         this.name = name;
