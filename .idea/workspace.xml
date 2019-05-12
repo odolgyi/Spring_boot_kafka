@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee2d0a15-448f-4aa2-adee-830b6fa96548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/MessageConsumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -202,7 +201,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -298,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557683782588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557683944899" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -354,7 +353,7 @@
       <updated>1557229673552</updated>
       <workItem from="1557229678845" duration="9525000" />
       <workItem from="1557409476089" duration="21988000" />
-      <workItem from="1557564375268" duration="15554000" />
+      <workItem from="1557564375268" duration="15608000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot. Create a user with Rest, Kafka, Postgres DB.">
       <created>1557653165378</created>
@@ -374,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47067000" />
+    <option name="totallyTimeSpent" value="47121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +385,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

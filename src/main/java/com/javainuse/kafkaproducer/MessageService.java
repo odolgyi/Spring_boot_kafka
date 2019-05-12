@@ -14,7 +14,6 @@ import java.util.Optional;
 public class MessageService {
     private final MessageRepo messageRepo;
 
-
     public List<User> findAll() {
         return messageRepo.findAll();
     }
@@ -22,7 +21,6 @@ public class MessageService {
     public Optional<User> findById(Long id) {
         return messageRepo.findById(id);
     }
-
 
     public void addUser(List<String> userData) {
         User newUser = new User(userData.get(1), userData.get(2), userData.get(3));
