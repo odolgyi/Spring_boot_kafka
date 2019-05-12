@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2d0a15-448f-4aa2-adee-830b6fa96548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/IConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/IConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaconsumers/MessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaproducer/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaproducer/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaproducer/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/kafkaproducer/MessageService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -303,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557654301017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557683782588" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -359,7 +354,7 @@
       <updated>1557229673552</updated>
       <workItem from="1557229678845" duration="9525000" />
       <workItem from="1557409476089" duration="21988000" />
-      <workItem from="1557564375268" duration="15529000" />
+      <workItem from="1557564375268" duration="15554000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot. Create a user with Rest, Kafka, Postgres DB.">
       <created>1557653165378</created>
@@ -379,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47042000" />
+    <option name="totallyTimeSpent" value="47067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
