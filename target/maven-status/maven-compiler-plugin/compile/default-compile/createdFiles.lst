@@ -1,0 +1,6 @@
+com\javainuse\kafkaxonsumers\IConsumer.class
+com\javainuse\SpringBootApplicationKafka.class
+com\javainuse\Entity\User.class
+com\javainuse\kafkaxonsumers\MessageConsumer.class
+com\javainuse\service\KafkaSender.class
+com\javainuse\kafkaproducer\ApacheKafkaWebController.class
