@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ee2d0a15-448f-4aa2-adee-830b6fa96548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javainuse/controllers/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javainuse/controllers/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/Entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/SpringBootApplicationKafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javainuse/SpringBootApplicationKafka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/kafkaconsumers/MessageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/kafkaproducer/MessageRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/kafkaproducer/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javainuse/resource/UserResource.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/controllers/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +37,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <marker date="1557691234579" expanded="true" signature="625:792" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/Service/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,6 +246,33 @@
               <item name="bootkafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javainuse" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootkafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootkafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javainuse" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootkafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootkafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javainuse" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootkafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootkafka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557690176879" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557691367332" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,7 +348,7 @@
       <workItem from="1557229678845" duration="9525000" />
       <workItem from="1557409476089" duration="21988000" />
       <workItem from="1557564375268" duration="15608000" />
-      <workItem from="1557683846971" duration="5925000" />
+      <workItem from="1557683846971" duration="6807000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot. Create a user with Rest, Kafka, Postgres DB.">
       <created>1557653165378</created>
@@ -350,7 +382,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53046000" />
+    <option name="totallyTimeSpent" value="53928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,6 +395,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,7 +415,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.25568798" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" weight="0.25568798" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
@@ -635,16 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/Service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/SpringBootApplicationKafka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -657,8 +680,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/controllers/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="418">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/Service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,12 +700,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javainuse/Entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <marker date="1557691234579" expanded="true" signature="625:792" ph="..." />
           </folding>
         </state>
       </provider>

@@ -9,8 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Table;
 
 @Entity
-@Data
 @Table(name = "usr")
+@Data
 public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
