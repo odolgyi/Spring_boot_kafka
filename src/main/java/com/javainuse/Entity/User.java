@@ -1,8 +1,15 @@
 package com.javainuse.Entity;
 
-import javax.persistence.*;
+import lombok.Data;
+import javax.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GenerationType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Table;
 
 @Entity
+@Data
 @Table(name = "usr")
 public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -28,36 +35,7 @@ public class User {
         this.adress = adress;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getMobilePhone() {
-        return mobilePhone;
-    }
-
-    public void setMobilePhone(String mobilePhone) {
-        this.mobilePhone = mobilePhone;
-    }
-
-    public String getAdress() {
-        return adress;
-    }
-
-    public void setAdress(String adress) {
-        this.adress = adress;
-    }
-
-    @Override
-    public String toString() {
+    public String userDataToString() {
         return id + " " + name + " " + mobilePhone + " " + adress;
     }
 }

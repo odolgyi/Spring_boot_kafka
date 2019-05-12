@@ -25,7 +25,7 @@ public class UserResource {
     @GetMapping("/producer/{name}")
     public void producerSendDataToKafka(@PathVariable("name") final String name) throws UnknownError {
         log.info("Data {} generated.", name);
-        String userToString = new User(name, "09345", "Soborna").toString();
+        String userToString = new User(name, "09345", "Soborna").userDataToString();
         kafkaTemplate.send(kafkaTOPIC, userToString);
     }
 }
